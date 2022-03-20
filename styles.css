@@ -1,0 +1,273 @@
+@import url(https://www.cognizant.com/etc/designs/cognizant_foundation_dotcom_new/Cognizant_sans_font_clientlib.min.20ba39e99e5e3a95f02f4c6537997e3c.css);
+
+:root {
+    --ac-colour: #0033a1;
+    --otr-color: #00b140;
+}
+
+/* Navbar and Off Canvas Section */
+
+.btn_nav {
+    font-size: 1.4rem;
+}
+
+.btn_oc {
+    font-size: 20px;
+    color: white;
+    padding: 10px 25px 10px 0px;
+}
+
+.a_oc_h {
+    font-size: 20px;
+    color: white;
+    padding: 30px 50px 0px 0px;
+}
+
+.a_oc{
+    font-size: 20px;
+    color: white;
+    padding: 0px 50px 0px 0px;
+}
+
+.btn_nav:hover {
+    color: white;
+    background-color: var(--ac-colour);
+}
+.container-fluid1 {
+    background-color: #e6e6e6;
+}
+.container2{
+    background-color: #e6e6e6;
+}
+.navbar-toggler {
+    border: none;
+}
+
+.offcanvas {
+    width: 240px;
+    background-color: var(--ac-colour);
+}
+
+@media (max-width: 360px) {
+    .navbar-text {
+        display: none;
+    }
+}
+
+/* Navbar and Off Canvas Section End */
+
+/* Carousel Section */
+
+.ch, .chh {
+    color: white;
+}
+
+.cp {
+    font-size: 20px;
+}
+
+.btn_c, .btn_c:hover {
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    background-color: var(--otr-color);
+}
+
+.carousel-item img {
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    height: 400px;
+}
+
+@media (max-width: 480px) {
+    .ch {
+        font-size: 20px;
+    }
+    
+    .cp {
+        font-size: .8rem;
+    }
+}
+
+/* Carousel Section End */
+
+/* Quote Section */
+
+.quote {
+    color: var(--ac-colour);
+}
+
+
+.quote {
+    margin-top: 2.8rem;
+    margin-bottom: 2.8rem;
+    font-size: 32px;
+    line-height: 4rem;
+}
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .quote {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 18px;
+        line-height: 2rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 760px) {
+    .quote {
+        margin-top: 1.8rem;
+        margin-bottom: 1.8rem;
+        font-size: 25px;
+        line-height: 3rem;
+    }
+}
+
+/* Quote Section End */
+
+/* Horizantal Card Section */
+
+.ca_h, .ca_p {
+    color: white;
+    
+}
+
+.imgg {
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .imgg-c, .ca-c {
+        padding: 0px 0px;
+    }
+    .ca-b {
+        font-size: 1rem;
+        padding: 20px 10px 20px 10px;
+    }
+}
+
+.ca-b {
+    padding: 5%;
+}
+
+/* Horzontal Card Section End */
+
+/* Card Grid Section */
+
+.cf {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+@media (max-width: 200px) {
+    .cf {
+        font-size: .8rem;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 3%;
+    }
+}
+
+/* Card Grid Section End */
+.card-body row{
+       padding-left: 30px;
+       margin-left: 30px;
+       padding: 30px;
+}
+span{
+    display: inline-block;
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+
+/* Three Vertical Card Section */
+
+.btn_ca {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--otr-color);
+}
+
+/* Three Vertical Card Section End */
+.text-right{
+    float: right;
+    object-fit: unset;
+}
+/* Footer Section */
+
+.foot li a{
+    color: #333333;
+    padding: 0%;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.foot li{
+    list-style-type: none;
+}
+
+.foot h5{
+    padding-top: 5px;
+}
+
+.foot li a:hover{
+    color: var(--otr-color);
+}
+
+/* Footer Section End */
+.cell bg-white {
+    display: flex;
+}
+
+.column1 {
+    float: left;
+    max-width: max-content;
+    width: 35%;
+    padding: 0 10px;
+  }
+  
+
+
+
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;
+   
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    padding: 20px;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card1 {
+     /* this adds the "card" effect */
+    text-align: center;
+    width: 50px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 1200px) {
+    .column1 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .cards{
+      padding: 40px;
+  }
+  
